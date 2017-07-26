@@ -48,7 +48,7 @@ public class LoginController {
         }
 
         try {
-            System.out.println("response.getStatusLine()=="+response.getStatusLine());
+            System.out.println("response.getStatusLine()==  "+response.getStatusLine());
             HttpEntity entity = response.getEntity();
             System.out.println("entity -->");
             System.out.println(entity);
